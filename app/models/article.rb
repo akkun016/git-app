@@ -1,3 +1,3 @@
 class Article < ApplicationRecord
-  validates_presence_of(:tilte)
+  valideates :title, presence: true
 end
